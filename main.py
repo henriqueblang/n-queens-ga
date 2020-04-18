@@ -1,8 +1,8 @@
 import matplotlib.pyplot as plt
 
-import modules.genetics.operators as operators
 import modules.problem as problem
-import modules.genetics.utils as utils
+from modules.genetics import operators
+from modules.genetics import utils
 from modules.genetics.chromossome import Chromossome
 
 if __name__ == "__main__":
