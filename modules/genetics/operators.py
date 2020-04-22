@@ -101,7 +101,7 @@ def mutation(population):
     mutation_point_1 = mutation_point_2 = -1
     while mutation_point_1 == mutation_point_2:
         mutation_point_1 = random.randint(0, problem.N_QUEENS - 1)
-        mutation_point_1 = random.randint(0, problem.N_QUEENS - 1)
+        mutation_point_2 = random.randint(0, problem.N_QUEENS - 1)
 
     print(f"Invididual {target.to_string()} will mutate at points ({mutation_point_1}, {mutation_point_2})")
 
